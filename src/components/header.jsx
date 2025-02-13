@@ -45,7 +45,7 @@ const Header = () => {
       </nav>
 
       {isOpen && (
-        <nav className="shadow-effect fixed top-0 left-0 bottom-0 w-9/12 bg-[#1b1b1a] z-[999] py-5 md:hidden flex flex-col items-center justify-start duration-300 z-50 transition-all">
+        <nav className=" fixed h-screen top-0 left-0 bottom-0 w-[80%] bg-[#1b1b1a] py-5 md:hidden flex flex-col items-center justify-start duration-300 z-[9999] transition-all">
           <h1 className="text-xl text-[#f1c121] font-bold font-title flex items-center">
             <img src="/img/hero.png" alt="" className="w-20 " />
             HEDHANCE
@@ -59,7 +59,7 @@ const Header = () => {
                 </a>
               </li>
             ))}
-            <button className="btn hidden md:flex">Buy Now</button>
+            <button className="btn md:hidden">Buy Now</button>
           </ul>
         </nav>
       )}

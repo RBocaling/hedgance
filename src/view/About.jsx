@@ -1,8 +1,8 @@
 import React from "react";
 const About = () => {
   return (
-    <section id="about" className="relative w-full  mt-16 md:mt-0 z-30">
-      <div className="relative max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center md:justify-end px-5  z-30 ">
+    <section id="about" className="relative w-full  mt-16 md:mt-0 z-2 0">
+      <div className="relative max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center md:justify-end px-5  z-20 ">
         <div className="relative w-full md:w-1/2 pl-4">
           {" "}
           <h1 className="text-3xl md:text-5xl text-[#f1c121] font-bold font-title flex items-center mb-9">
@@ -18,7 +18,7 @@ const About = () => {
           <button className="btn ">Buy Now</button>
         </div>
         <div className="w-full md:w-1/2">
-          <img src="/img/hero.png" alt="" className="relative z-30 w-full" />
+          <img src="/img/hero.png" alt="" className="relative z-20 w-full" />
         </div>
       </div>
     </section>
