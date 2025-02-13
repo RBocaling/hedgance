@@ -31,7 +31,7 @@ const Tokenomics = () => {
               </div>
             ))}
           </div>
-          <div className="relative flex flex-col  justify-center z-30">
+          <div className="relative flex  items-center gap-7 z-30">
             <h1 className=" text-stroke-xs text-3xl md:text-5xl letter font-bold">
               1,000,000,000
             </h1>

@@ -146,6 +146,14 @@
   font-weight: 600;
   display: flex;
 }
+.htb.neon-text {
+  font-family: "title-font", sans-serif;
+  font-weight: 100;
+  font-size: 5rem;
+  letter-spacing: -0.75rem;
+  font-weight: 600;
+  display: flex;
+}
 
 /* Letter Styling */
 .letter {
